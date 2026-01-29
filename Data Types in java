@@ -1,0 +1,39 @@
+
+class DataTypes{
+    public static void main(String[] args){
+
+        byte myNum = 100  ;        // RANGE OF BYTE = -128 TO 127
+        System.out.println(myNum);
+
+        short Num = 5000;           //RANGE = -32768 TO 32768
+        System.out.println(Num);
+
+        int a = 400000;               //RANGE OF INT = -2147483648 TO 2147483647
+        System.out.println(myNum);
+
+        long b = 100000000;
+        System.out.println(b);
+
+        float floatNum = 3.2f ;
+        System.out.println(floatNum);
+
+        double d = 20.12d;
+        System.out.println(d);
+
+        //Scientific Numbers 
+        float f1 = 32e3f ;
+        double d1 = 12E4d ;
+        System.out.println(f1);
+        System.out.println(d1);
+
+        //Boolean Values
+        Boolean isJavaFun = false;
+        System.out.println(isJavaFun);
+
+        Boolean isJavaGame = true;
+        System.out.println(isJavaGame);
+
+        char myGrade = 'B';
+        System.out.println(myGrade);
+    }
+}
