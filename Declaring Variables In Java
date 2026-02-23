@@ -1,0 +1,23 @@
+
+class DeclaringVariables{
+    public static void main(String[] args){
+        // int a = 10 , b = 15 , c = 9 ;
+        // System.out.println("\nThis is a demo code   " + (a+b+c) +"\n");
+
+        // int x,y,z;
+        // x = y = z = 40;
+        // System.out.println(x+y-z + "\n");
+
+        System.out.println("This is a new code here :");
+        final String Name = "Keshav";
+        System.out.println(Name);
+
+        final int MINUTES_PER_HOUR = 60 ;
+
+        int myNum = 5 ;
+        float a = 5.99f ;
+        char character = 'A';
+        boolean myBool = true ;
+        String myText = "Hare Krsna";
+    }
+}
