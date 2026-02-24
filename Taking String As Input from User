@@ -1,0 +1,15 @@
+import java.util.*;
+
+public class INPUT2{
+    public static void main(String args[]){
+        System.out.println("Enter your name : ");
+        //Taking Input...........
+        Scanner sc = new Scanner(System.in);
+    
+      String fullName = sc.nextLine();
+        System.out.println(fullName);
+        sc.close();
+
+
+    }
+}
