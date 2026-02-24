@@ -1,0 +1,11 @@
+import java.util.Scanner ;
+
+public class Double {
+    static int doubleTheValue(int n){
+                return 2*n ;    
+    }
+    public static void main(String[] args){
+        int a = doubleTheValue(60);
+        System.out.println(a);
+    }
+}
