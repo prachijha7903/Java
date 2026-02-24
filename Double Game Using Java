@@ -1,0 +1,21 @@
+import java.util.Scanner;
+
+class DoubleGame{
+    static int doubleGame(int n){
+        return n * 2 ;
+    }
+    public static void main(String[] args){
+        Scanner sc = new Scanner(System.in);
+        int a ;
+        do {
+        System.out.println("-----------------------------------------------------");
+        System.out.print("ENter the number whose double you want to find :" );
+
+        a = sc.nextInt();
+        System.out.println("Double : " + doubleGame(a));
+        System.out.println("-----------------------------------------------------");
+
+        }while(a > 0);
+
+    }
+}
