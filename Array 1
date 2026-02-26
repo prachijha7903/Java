@@ -1,0 +1,12 @@
+public class ArrayinJava{
+    public static void main(String[] args){
+        String[] Krsna = {"Madhav","Govind","Murari","Keshav"};
+        int[] myNum = {10,20,30,40};
+        System.out.println(Krsna[0]);
+        System.out.println(myNum[3]);
+        System.out.println(Krsna.length);
+        System.out.println(Krsna);
+
+
+    }
+}
