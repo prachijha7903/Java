@@ -1,0 +1,12 @@
+public class multipleParameter{
+
+    static void multiple(String Name , int age){
+        System.out.print("Name : " + Name + " Age : " + age);
+        System.out.println();
+
+    }
+    public static void main(String[] args){
+        multiple("Keshav Sharma",20);
+        multiple("Achutya Tiwari",21);
+    }
+}
