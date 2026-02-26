@@ -1,0 +1,13 @@
+class Array2{
+    public static void main(String[] args){
+        int[] num = {20 , 30 , 40 , 50 , 60};
+        int max , min ;
+         
+        // Finding the maximum and minimum in an array 
+        for(int i = 0 ; i <= 4  ; i ++){
+            if(num[i]<min)  min = num[i];
+            if(num[i]>max)  max = num[i];
+        }
+        System.out.println("Min = " + min + "Max = " + max);
+    }
+}
