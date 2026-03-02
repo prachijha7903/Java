@@ -1,0 +1,51 @@
+public class Calculator {
+
+    public int add(int a, int b) {
+
+        return a + b;
+
+    }
+
+ 
+
+    public double add(double a, double b) {
+
+        return a + b;
+
+    }
+
+ 
+
+    public String add(String a, String b) {
+
+        return a + b; // concatenation
+
+    }
+
+    public int add(int a, int b, int c) {
+
+        return a + b + c;
+
+    }
+
+ 
+
+    public static void main(String[] args) {
+
+        Calculator Cal = new Calculator();
+
+        System.out.println("\n\n");
+        System.out.println("int add: " + Cal.add(5, 10));
+
+        System.out.println("double add: " + Cal.add(2.9, 3.6));
+
+        System.out.println("String add: " + Cal.add("Hare ", "Krsna"));
+
+        System.out.println("int add(3 Parameter): " + Cal.add(5, 10, 20));
+                System.out.println("\n\n");
+
+
+
+    }
+
+}
