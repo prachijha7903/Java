@@ -1,0 +1,26 @@
+class Vehicle{
+    protected String brand = "Ford";
+    protected static String Color = "White";
+
+    public void honk(){
+        System.out.println("pppp....ppp");
+    }
+
+}
+class Car extends Vehicle{
+    private static String modelName = "1.0";
+    private int modelNo = 1045;
+
+    public static void main(String[] args){
+
+        Car myCar = new Car();   // object of Car
+
+        myCar.honk();
+        System.out.println(modelName);
+        System.out.println(myCar.modelNo);
+        System.out.println(myCar.brand);
+        System.out.println(myCar.Color);
+
+
+    }
+}
