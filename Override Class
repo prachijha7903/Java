@@ -1,0 +1,15 @@
+class SimpleClass{
+    public void display(){
+        System.out.println("Overriding Method");
+    }
+}
+public class OverrideClass extends SimpleClass{
+        public void display(){
+            System.out.println("Overriding SimpleClass Method");
+        }
+
+        public static void main(String[] args){
+            OverrideClass OC = new OverrideClass();
+            OC.display();
+        }
+    }
