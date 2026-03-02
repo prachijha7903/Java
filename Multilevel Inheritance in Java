@@ -1,0 +1,45 @@
+class Simple{
+    double width;
+    double height;
+    double depth;
+
+    Simple(double width,double height,double depth){
+        this.width = width ;
+        this.height = height ;
+        this.depth = depth ;
+    }
+    double Volume(){
+        return (width*height*depth);
+    }
+}
+
+class Weight extends Simple{
+    double weight ;
+    Weight(double w1,double h1,double d1,double weight){
+        super(w1,h1,d1);
+        this.weight = weight ; 
+    }
+    void write(){
+        System.out.println("width: " + width);
+        System.out.println("height : " + height);
+        System.out.println("Volume : " + Volume());
+        System.out.println("Weight : " + weight);
+    }
+}
+
+class Box extends Weight {
+
+    String BoxColor ;
+    Box(double w1,double h1,double d1,double we,String BoxColor){
+        super(w1,h1,d1,we);
+        this.BoxColor = BoxColor; 
+        System.out.println("BoxColor : " + BoxColor);
+    }
+}
+
+class MultilevelInheritance{
+    public static void main(String[] args){
+    Box B = new Box(3,4,5,2,"Red") ;
+    B.write();
+    }
+}
