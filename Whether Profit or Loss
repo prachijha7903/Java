@@ -1,0 +1,17 @@
+import java.util.Scanner;
+
+class ProfitOrLoss{
+    public static void main(String[] args){
+        int CP,SP;
+        
+        Scanner sc = new Scanner(System.in);
+        CP = sc.nextInt();
+        SP = sc.nextInt();
+
+        if(SP>CP){
+            System.out.println("Profit");
+        }else{
+            System.out.println("Loss");
+        }
+    }
+}
