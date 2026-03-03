@@ -1,0 +1,17 @@
+ //Triangle Inequality Theorem, which states that the sum of the lengths of any two sides must be strictly greater than the length of the third side.
+
+import java.util.Scanner;
+
+class SidesOfTriangle{
+    public static void main(String[] args){
+        int a,b,c ;                // Sides of Triangle
+        a= 10;
+        b = 20;
+        c = 15;
+        if(((a+b)>c)  && ((b+c)>a) && ((a+c)>b) ){
+               System.out.println("a,b,c are the sides of the Triangle\n So the Triangle is valid");
+        }else{
+            System.out.println("a,b,c are not the sides of the triangle\n So it is not a valid Triangle!");
+        }
+    }
+}
