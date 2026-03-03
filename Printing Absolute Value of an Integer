@@ -1,0 +1,18 @@
+//Absolute means that we are simply writing the positive number the way it is and the negative number by removing the negative sign from it ....
+import java.util.Scanner;
+
+class AbsoluteValueOfInteger{                     //Absolute value = Mode|x|
+    public static void main(String[] args){
+            Scanner sc = new Scanner(System.in);
+            System.out.println("Enter the Num : ");
+            int num = sc.nextInt();
+
+            if(num<0){
+                // num = num * (-1);
+                 num = -num;          
+          }
+            System.out.println(num);
+
+
+            }        
+    }
